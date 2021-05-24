@@ -191,6 +191,10 @@
     font-family: 'Quicksand', sans-serif;
   }
 
+  /* Visuelle intruktioner slut */
+
+  /* Footer start */
+
   footer {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -209,4 +213,15 @@
     font-weight: 700;
   }
 
-  /* Visuelle intruktioner slut */
+  .tekst {
+    color: #FFFFFF;
+  }
+
+  .some {
+    width: 70%;
+    padding: 2.5% 0 2.5% 10%;
+  }
+
+
+
+  /* Footer slut */
