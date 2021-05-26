@@ -226,6 +226,25 @@
 
   /* Styletile start */
 
+  /*farver start */
 
+  .green {
+    background-color: #50AF31;
+    width: 150px;
+    height: 95px;
+    border-radius: 10px;
+  }
+
+  .greentitel {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .greencopy {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  /*farver slut */
 
   /* Styletile slut */
