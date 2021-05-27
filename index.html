@@ -5,13 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>NORQi Panel</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="NORQipanel.js" defer></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
       </head>
       <body>
-      <section class="navhead">  
+      <section class="navhead">
     <img class="norqilogo1" src="img/norqilogo1.png" alt="">
-      
+
     <!-- burgermenustart -->
     <div class="burgerbox">
       <nav class="navbar">
@@ -20,7 +22,7 @@
           <div class="linje linje-2"></div>
           <div class="linje linje-3"></div>
     </div>
-    
+
     <ul class="nav-list">
       <li class="nav-punkt">
           <a href="#" class="nav-link">Produkter</a>
@@ -37,24 +39,140 @@
     </ul>
     </nav>
     </div>
-    </section> 
+    </section>
     <script src="script.js"></script>
     <!--burgermenuslut-->
 
     <!--Header start-->
     <header>
       <div class="header-info1">
+        <div class="flex">
+              <div class="wrapper">
+                    <row1 class="mainr1">
+                      <button class="startall" id="start1" onclick="myFunction()"><div class="starticon">
+                        <img src="Assets/start.png" alt="start">
+                      </div></button></row1>
+
+                      <row20 class="mainr20">
+                        <div class="varmeicon">
+                          <img src="Assets/temp.png" alt="varme">
+                        </div></row20>
+
+                    <row2 class="mainr2"> <div id="valuebox2" onclick="buttonClick()">
+                      <div class="heaticon">
+                      <img src="Assets/heat.png" alt="heat">
+                    <input type="text" id="inc" value="0" readonly></input>
+                  </div></div>
+                  <div id="valuebox21">
+                    <div class="heaticon">
+                    <img src="Assets/heat.png" alt="heat">
+                  <input type="text" id="inc" value="0" readonly ></input>
+                  </div></div>
+                </row2>
+                    <row3 class="mainr3"><div id="valuebox3" onclick="buttonClick2()"><div class="heatsideicon">
+                      <img src="Assets/heatside.png" alt="heatside">
+                      <input type="text" id="inc2" value="0" readonly></input>
+                    </div></div>
+                    <div id="valuebox31">
+                      <div class="heatsideicon">
+                      <img src="Assets/heatside.png" alt="heatside">
+                    <input type="text" id="inc2" value="0" readonly></input>
+                    </div></div>
+                  </row3>
+                    <row4 class="mainr4"><div id="valuebox4" onclick="buttonClick1()"><div class="3of4icon">
+                      <img src="Assets/3of4.png" alt="3of4">
+                      <input type="text" id="inc1" value="0" readonly></input>
+                    </div></div>
+                    <div id="valuebox41">
+                      <div class="3of4icon">
+                      <img src="Assets/3of4.png" alt="3of4">
+                    <input type="text" id="inc1" value="0" readonly></input>
+                    </div></div></row4>
+
+                    <row5 class="mainr5">
+                      <button class="startall" id="start2"><div class="starticon">
+                        <img src="Assets/start.png" alt="start">
+                      </div></button></row5>
+
+                      <row21 class="mainr21">
+                        <div class="stiricon">
+                          <img src="Assets/omrøring.png" alt="omrøring">
+                        </div></row21>
+
+                    <row6 class="mainr6"><div class="valuebox6"><div class="trebaricon">
+                      <img src="Assets/trebar.png" alt="trebar">
+                    </div></div></row6>
+                    <row7 class="mainr7"><div class="valuebox7"><div class="coicon">
+                      <img src="Assets/co.png" alt="co">
+                    </div></div></row7>
+
+                    <row8 class="mainr8">
+                      <button class="startall" id="start3"><div class="starticon">
+                        <img src="Assets/start.png" alt="start">
+                      </div></button></row8>
+
+                      <row22 class="mainr22">
+                        <div class="vandicon">
+                          <img src="Assets/vand.png" alt="vand">
+                        </div></row22>
+
+                    <row9 class="mainr9"><div class="valuebox9"><div class="handvandicon">
+                      <img src="Assets/handvand.png" alt="handvand">
+                    </div></div></row9>
+                    <row10 class="mainr10"><div class="valuebox10"><div class="3drypicon">
+                      <img src="Assets/3dryp.png" alt="3dryp">
+                    </div></div></row10>
+                    <row11 class="mainr11"><div class="valuebox11"><div class="tregrydeicon">
+                      <img src="Assets/tregryde.png" alt="tregryde">
+                    </div></div></row11>
+
+                    <row12 class="mainr12">
+                      <button class="startall" id="start4"><div class="starticon">
+                        <img src="Assets/start.png" alt="start">
+                      </div></button></row12>
+
+                      <row23 class="mainr23">
+                        <div class="tidicon">
+                          <img src="Assets/tid.png" alt="tid">
+                        </div></row23>
+
+                    <row13 class="mainr13"><div class="valuebox13"><div class="timeicon">
+                      <img src="Assets/time.png" alt="time">
+                    </div></div></row13>
+                    <row14 class="mainr14"><div class="valuebox14"><div class="uricon">
+                      <img src="Assets/ur.png" alt="ur">
+                    </div></div></row14>
+                    <row15 class="mainr15"><div class="valuebox15"><div class="tjekicon">
+                      <img src="Assets/tjek.png" alt="tjek">
+                    </div></div></row15>
+
+                    <row16 class="mainr16">
+                      <div class="tomicon">
+                        <img src="Assets/empty.png" alt="tom">
+                      </div></row16>
+                    <row17 class="mainr17">
+                      <div class="menuicon">
+                        <img src="Assets/menu.png" alt="menu">
+                      </div></row17>
+                    <row18 class="mainr18">00:00</row18>
+                    <row19 class="mainr19">
+                      <div class="fullicon">
+                        <img src="Assets/full.png" alt="full">
+                      </div></row19>
+              </div>
+        </div>
+        <p id="demo"></p>
           <h2 class="header-tekst1">Hvad er dette?</h2>
           <p class="header-tekst2">Dette er et panel, hvor man kan se hvad de forskellige knapper gør ved vores induktionskipgryde. Når du trykker på
             en knap ændrer teksten sig under "hvad gør denne knap".</p>
-        </div>  
+        </div>
 
 <!--INDSÆT PANEL HER-->
 
       <div class="header-info2">
         <h2 class="header-tekst3">Hvad gør denne knap?</h2>
         <p class="header-tekst4">Dette er den aktuelle temperatur på bunden. Det er her du kan skrue op og ned for temperaturen, så du kan få den helt perfekt varme til din mad.</p>
-    </div> 
+    </div>
     </header>
     <br>
     <!--Header slut-->
@@ -68,7 +186,7 @@
         <div class="tekstvideo1">
         <h3 class="kipgrydeoverskrift">Varme</h3>
         <br>
-        <p>I denne video vil vi gå gennem varme funktionen. 
+        <p>I denne video vil vi gå gennem varme funktionen.
           Vi vil vise hvordan man bestemme temperaturen i gryden
           i maden, via panelet på Kipgryden.</p>
         </div>
@@ -94,7 +212,7 @@
         <h3 class="kipgrydeoverskrift">Vandtilførsel</h3>
         <br>
         <p>Kipgrydens indbyggede vand funktion, denne video
-          viser hvordan man gennem funktion nemt kan komme 
+          viser hvordan man gennem funktion nemt kan komme
           en bestemt mængde vand i gryden og hvordan man til
           tilfører lidt ekstra vand, hvis det ønskes.</p>
         </div>
@@ -108,7 +226,7 @@
         <br>
         <p>Kipgryden har forskellige tids programmer. Denne video
           vil vise hvordan man sætter en timer på gryden
-          og hvordan man kan bestemme et tidspunkt, 
+          og hvordan man kan bestemme et tidspunkt,
           hvor man ønsker gryden varm fx kl 08:00 </p>
         </div>
       </div>
@@ -133,7 +251,7 @@
         <p>M: info@norqi.com</p>
         <p>CVR: DK38634216</p>
         </div>
-      </div> 
+      </div>
       <div class="footerdiv">
         <br>
         <h2 class="kontakttitel">LINKS</h2>
@@ -154,4 +272,3 @@
     <!--Footer slut-->
     </body>
 </html>
-

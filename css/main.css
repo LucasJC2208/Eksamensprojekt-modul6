@@ -1,0 +1,321 @@
+* {box-sizing: border-box;}
+
+.flex {
+  display: flex;
+}
+
+    .wrapper {
+      background-color: white;
+      width: 150vh;
+      height: 90vh;
+      border: 2vh solid green;
+      border-radius: 25px;
+
+    }
+
+    .wrapper > * {
+        border-bottom: 2px solid #f08c00;
+    }
+
+
+.mainr1 {
+  grid-area: row1;
+}
+
+.mainr2 {
+  grid-area: row2;
+}
+
+.mainr3 {
+  grid-area: row3;
+}
+
+.mainr4 {
+  grid-area: row4;
+}
+
+.mainr5 {
+  grid-area: row5;
+}
+
+.mainr6 {
+  grid-area: row6;
+}
+
+.mainr7 {
+  grid-area: row7;
+}
+
+.mainr8 {
+  grid-area: row8;
+}
+
+.mainr9 {
+  grid-area: row9;
+}
+
+.mainr10 {
+  grid-area: row10;
+}
+
+.mainr11 {
+  grid-area: row11;
+}
+
+.mainr12 {
+  grid-area: row12;
+}
+
+.mainr13 {
+  grid-area: row13;
+}
+
+.mainr14 {
+  grid-area: row14;
+}
+
+.mainr15 {
+  grid-area: row15;
+}
+
+.mainr16 {
+  grid-area: row16;
+  border-right: 2px solid #f08c00;
+}
+
+.mainr17 {
+  grid-area: row17;
+  border-right: 2px solid #f08c00;
+}
+
+.mainr18 {
+  grid-area: row18;
+  border-right: 2px solid #f08c00;
+}
+
+.mainr19 {
+  grid-area: row19;
+}
+
+.wrapper {
+  display: grid;
+  height: 80vh;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1.5fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "row1  row20  row2  row2  row3  row3  row4  row4"
+    "row5  row21  row6  row6  row6  row7  row7  row7"
+    "row8  row22  row9  row9  row10  row10  row11  row11"
+    "row12  row23  row13  row13  row14  row14  row15  row15"
+    "row16  row16  row17  row17  row18  row18  row19  row19";
+  }
+
+  .startall {
+    height: 7vh;
+    width: 7vh;
+    margin: 0;
+    position: relative;
+    top: 25%;
+    left: 40%;
+  }
+
+  .varmeicon {
+    position: relative;
+    top: 17%;
+    left: 20%;
+
+  }
+
+  .stiricon {
+    position: relative;
+    top: 5%;
+    left: 10%;
+  }
+
+  .vandicon {
+    position: relative;
+    top: 7%;
+    left: 10%;
+  }
+
+  .tidicon {
+    position: relative;
+    top: 10%;
+    left: 10%;
+  }
+
+
+  #valuebox2 {
+    background-color: lightgray;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+  #valuebox3 {
+    background-color: lightgray;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+  #valuebox4 {
+    background-color: lightgray;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+  #valuebox21 {
+    background-color: darkgray;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+    display: none;
+  }
+
+  #valuebox31 {
+    background-color: darkgray;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+      display: none;
+  }
+
+  #valuebox41 {
+    background-color: darkgray;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+      display: none;
+  }
+
+  .valuebox6 {
+    background-color: lightgray;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+  .valuebox7 {
+    background-color: lightgray;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+  .valuebox9 {
+    background-color: lightgray;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+  .valuebox10 {
+    background-color: lightgray;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+  .valuebox11 {
+    background-color: lightgray;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+  .valuebox13 {
+    background-color: lightgray;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+  .valuebox14 {
+    background-color: lightgray;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+  .valuebox15 {
+    background-color: lightgray;
+    width: 90%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+.trebaricon {
+  position: relative;
+  top: 10%;
+}
+
+.tregrydeicon {
+  position: relative;
+  top: 10%;
+}
+
+.timeicon {
+  position: relative;
+  bottom: 5%;
+}
+
+.uricon {
+  position: relative;
+  bottom: 5%;
+}
+
+.tjekicon {
+  position: relative;
+  bottom: 5%;
+}
+
+.menuicon {
+  margin-left: 30%;
+  margin-top: 12%;
+}
+
+.fullicon {
+  margin-left: 15%;
+  margin-top: 0%;
+}
+
+.tomicon {
+  margin-left: 15%;
+  margin-top: 0%;
+}
+
+input {
+  background-color: transparent;
+border: 0px solid;
+float: right;
+}
