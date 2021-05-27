@@ -1,4 +1,3 @@
-* {box-sizing: border-box;}
 
 .flex {
   display: flex;
@@ -10,6 +9,7 @@
       height: 90vh;
       border: 2vh solid green;
       border-radius: 25px;
+      z-index: -1;
 
     }
 
