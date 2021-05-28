@@ -101,7 +101,7 @@
 .wrapper {
   display: grid;
   height: 80vh;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "row1  row20  row2  row2  row3  row3  row4  row4"
