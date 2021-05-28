@@ -467,4 +467,188 @@
 
 /* Logo slut */
 
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  height: 150px;
+  z-index: -1;
+  align-items: center;
+  margin-left: 40% ;
+}
+
+.topbillede {
+  width: 25%;
+  
+} 
+.prikker {
+    display: none;
+}
+
+/*slider slut*/
+
+
+
+  /*karousel*/
+
+  .karot {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #5b5b5b;
+    margin-top: 10px;
+    width: 75%;
+    margin-left: 13%;
+
+  }
+  main{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    position: relative;
+    padding: 5px 10px;
+  }
+
+  main .text{
+    padding: 10px;
+    text-align: center;
+    color: #554;
+  }
+  .text h1{
+    font-size: 50px;
+    color: #689ECE;
+  }
+
+  .text p{
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+    line-height: 30px;
+  }
+
+ 
+  
+  header p span{
+    font-size: 60px;
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 3px;
+    }
+
+    header p span{
+        position: absolute;
+        top: 70%;
+        font-weight: bold;
+        color: purple;
+        cursor: pointer;
+        left: .2%;
+        z-index: 1;
+      }
+
+      span:nth-of-type(2){
+        left: 98%;
+        text-align: right;
+      }
+
+      header p span:hover{
+        color: #689ece;
+      }
+
+      section{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        overflow-x: auto;
+      }
+
+      section::-webkit-scrollbar{
+        display: none;
+      }
+
+      section .product{
+        min-width: 31%;
+        height: auto;
+        background: white;
+        margin-top: 20px;
+        border-radius: 20px;
+        position: relative;
+        left: 0;
+        transition: 0.5s;
+      }
+
+      picture{
+        width: 95%;
+        height: 95%;
+        padding: 5px;
+        display: flex;
+        overflow: hidden;
+        margin-bottom: 20px;
+      }
+
+      picture img{
+        width: 50%;
+        margin-left: 25%;
+        }
+    
+    
+    b{
+            display: flex;
+              flex-direction: column;
+            align-items: center;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+
+          a{
+            font-size: 12px;
+          padding: 15px;
+          display: flex;
+            flex-direction: column;
+          align-items: center;
+          color:blue;
+        }
+
+
+        @media(max-width: 768px)
+        {
+            .text h1{
+              font-size:35px
+            }
+            .text p{
+              width: 90%;
+            }
+            header h1{
+              font-size: 25px;
+            }
+            header p span{
+              font-size: 30px;
+            }
+            header p span{
+                top: 72%;
+              }
+        
+        section .product{
+          min-width: 49%;
+          margin: 0 10px 0 0;
+        }
+        
+        a{
+          padding: 6px 10px;
+        }
+        span:nth-of-type(2){
+          left: 92%;
+          text-align: right;
+        }
+        }
+/*karousel slut*/
+/*karousel text*/
+.carotext {
+  text-align: center;
+}
+/*karousel text slut*/
   /* Styletile slut */
