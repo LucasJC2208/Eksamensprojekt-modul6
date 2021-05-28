@@ -224,13 +224,10 @@
         height: 450px;
       }
 
-<<<<<<< HEAD
 
-=======
       .navhead {
           background-color: #white;
       }
->>>>>>> e6aca1585217f041f5bc16e7d9f46fab5020f4e1
   }
   /* Visuelle intruktioner slut */
 
@@ -269,11 +266,14 @@
 
   /*farver start */
 
+  .farvekoder
+
   .green {
     background-color: #50AF31;
-    width: 150px;
+    width: 50%;
     height: 110px;
     border-radius: 10px;
+    float: left;
   }
 
   .greentitel {
@@ -282,6 +282,150 @@
   }
 
   .greencopy {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .sort {
+    background-color: #414141;
+    width: 50%;
+    height: 110px;
+    border-radius: 10px;
+    float: right;
+  }
+
+  .sorttitel {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .sortcopy {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .grey {
+    background-color: #E4F0F8;
+    width: 50%;
+    height: 110px;
+    border-radius: 10px;
+    float: left;
+  }
+
+  .greytitel {
+    text-align: center;
+    color: black;
+  }
+
+  .greycopy {
+    text-align: center;
+    color: black;
+  }
+
+  .hvid {
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 110px;
+    border-radius: 10px;
+    float: right;
+  }
+
+  .hvidtitel {
+    text-align: center;
+    color: black;
+  }
+
+  .hvidcopy {
+    text-align: center;
+    color: black;
+  }
+
+  .green {
+    background-color: #50AF31;
+    width: 50%;
+    height: 110px;
+    border-radius: 10px;
+    float: left;
+  }
+
+  .greentitel {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .greencopy {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .sort {
+    background-color: #414141;
+    width: 50%;
+    height: 110px;
+    border-radius: 10px;
+    float: right;
+  }
+
+  .sorttitel {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .sortcopy {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .andengreen {
+    background-color: #5cb71d;
+    width: 50%;
+    height: 110px;
+    border-radius: 10px;
+    float: left;
+  }
+
+  .andengreentitel {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .andengreencopy {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .darkgreen {
+    background-color: green;
+    width: 50%;
+    height: 110px;
+    border-radius: 10px;
+    float: right;
+  }
+
+  .darkgreentitel {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .darkgreencopy {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .orange {
+    background-color: #f08c00;
+    width: 50%;
+    height: 110px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+  .orangetitel {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .orangecopy {
     text-align: center;
     color: #FFFFFF;
   }
@@ -301,5 +445,15 @@
   }
 
 /*Typografi slut*/
+
+/* Logo start */
+
+  .norqilogo2 {
+    width: 60%;
+  }
+
+/* Logo slut */
+
+
 
   /* Styletile slut */
