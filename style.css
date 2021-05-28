@@ -3,7 +3,7 @@
 /* Burger menu start */
 
   .navhead {
-      background-color: #white;
+      background-color: #414141;
   }
 
   .norqilogo1 {
@@ -223,14 +223,10 @@
         width: 300px;
         height: 450px;
       }
-      .kipgrydevideo1 {
 
+      .navhead {
+          background-color: #white;
       }
-
-      .overskrift1 {
-
-      }
-
   }
   /* Visuelle intruktioner slut */
 
