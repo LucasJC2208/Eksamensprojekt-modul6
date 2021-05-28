@@ -224,10 +224,18 @@
         height: 450px;
       }
 
+<<<<<<< Updated upstream
 
       .navhead {
           background-color: #white;
       }
+=======
+  .navhead {
+      background-color: white;
+  }
+
+
+>>>>>>> Stashed changes
   }
   /* Visuelle intruktioner slut */
 
@@ -256,7 +264,7 @@
   }
 
   .some {
-    width: 70%;
+    width: 20%;
     padding: 2.5% 0 2.5% 10%;
   }
   /* Footer slut */
@@ -342,8 +350,13 @@
 
   .green {
     background-color: #50AF31;
+<<<<<<< Updated upstream
     width: 50%;
     height: 110px;
+=======
+    width: 150px;
+    height: 95px;
+>>>>>>> Stashed changes
     border-radius: 10px;
     float: left;
   }
