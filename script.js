@@ -1,3 +1,4 @@
+// Lucas
 const menuIcon = document.querySelector('.burgermenu');
 
 const navbar = document.querySelector('.navbar');

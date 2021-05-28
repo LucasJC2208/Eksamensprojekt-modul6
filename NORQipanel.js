@@ -1,5 +1,5 @@
 
-
+// Lucas
 let i = 0;
 function buttonClick() {
     document.getElementById('inc').value = ++i*10;
@@ -15,6 +15,7 @@ function buttonClick2() {
     document.getElementById('inc2').value = ++i2*10;
 }
 
+// Daniel
 function myFunction() {
   var y = document.getElementById("valuebox2");
   var x = document.getElementById("valuebox21");
@@ -39,6 +40,7 @@ function myFunction() {
   }
 }
 
+// Martin
 let p1 = "her tænder og slukker du for varmen. Når varmen er tændt kan den ikke yderligere indstilles før du slukker for den igen.";
 let p2 = "her kan du indstille varmen";
 let p3 = "her kan du indstille x";
