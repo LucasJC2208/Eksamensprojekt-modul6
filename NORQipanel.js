@@ -41,6 +41,14 @@ function myFunction() {
 }
 
 // Martin
+
+//debugging
+a = 5;
+b = 6;
+c = a + b;
+console.log(c);
+
+//forklaring text skifter ved tryk på knap
 let p1 = "her tænder og slukker du for varmen. Når varmen er tændt kan den ikke yderligere indstilles før du slukker for den igen.";
 let p2 = "her kan du indstille varmen";
 let p3 = "her kan du indstille x";
