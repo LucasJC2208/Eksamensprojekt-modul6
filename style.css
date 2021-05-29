@@ -603,6 +603,7 @@
         }
 
 
+
         @media(max-width: 768px)
         {
             .text h1{
@@ -632,6 +633,12 @@
         span:nth-of-type(2){
           left: 92%;
           text-align: right;
+        }
+        .green {
+          float: none;
+        }
+        .sort {
+          float: none;
         }
         }
 /*karousel slut*/
