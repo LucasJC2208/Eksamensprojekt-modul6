@@ -227,6 +227,7 @@
       .navhead {
           background-color: #white;
       }
+    }
 
   /* Visuelle intruktioner slut */
 
@@ -475,6 +476,16 @@
     display: none;
 }
 
+.slidertekstbro {
+  text-align: center;
+}
+
+@media only screen and (min-width: 1000px){
+  .slidertekstbro {
+    text-align: center;
+    padding-top: 100px;
+  }
+}
 /*slider slut*/
 
 
