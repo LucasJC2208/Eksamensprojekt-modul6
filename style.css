@@ -485,6 +485,9 @@
     text-align: center;
     padding-top: 100px;
   }
+  .navhead {
+    background-color: #FFFFFF;
+  }
 }
 /*slider slut*/
 
@@ -646,9 +649,6 @@
           text-align: right;
         }
         .green {
-          float: none;
-        }
-        .sort {
           float: none;
         }
         }
